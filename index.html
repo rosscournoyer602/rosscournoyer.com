@@ -2,6 +2,21 @@
 
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7JTDJ41432"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7JTDJ41432");
+    </script>
+
     <link rel="icon" type="image/png" href="resources/img/avatar.png" />
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
@@ -23,29 +38,6 @@
       content="Ross Cournoyer is a web developer in Phoenix, Arizona. 
         He uses HTML, CSS, Javscript, Typescript, React.js, Vue.js, Node.js, Express, Ruby on Rails, Python, and Flutter"
     />
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
-      ga("create", "UA-118768456-1", "auto");
-      ga("send", "pageview");
-    </script>
     <title>Ross Cournoyer</title>
   </head>
   <body>
