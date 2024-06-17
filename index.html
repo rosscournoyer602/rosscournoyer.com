@@ -1,179 +1,214 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link rel="icon" type="image/png" href="resources/img/avatar.png">
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Catamaran:200,400,700" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Ross Cournoyer is a web developer in Shanghai, China. He is from Arizona U.S. 
-        He uses HTML, CSS, Javscript, ES6, Jquery, React, Node, Express">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
-            a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-            a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-118768456-1', 'auto');ga('send', 'pageview');
-        </script>
-        <title>Ross Cournoyer</title>
-    </head>
-    <body>
-        <header id="header" class="js--header-section">
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#header"><i class="ion-home nav-icon js--scroll-to-header"></i></a></li>
-                    <li><a href="#bio"><i class="ion-ios-body nav-icon js--scroll-to-bio"></i></a></li>
-                    <li><a href="#projects"><i class="ion-code nav-icon js--scroll-to-projects"></i></a></li>
-                    <li><a href="#learning"><i class="ion-erlenmeyer-flask nav-icon js--scroll-to-learning"></i></a></li>
-                    <li><a href="#contact"><i class="ion-at nav-icon js--scroll-to-contact"></i></a></li>
-                </ul>
-            </nav>
-            <div class="hero-text-box">
-                <h1>Ross Cournoyer</h1>
-                <h4>Web Development</h4>
-            </div>
-        </header>
-        <section id="bio" class="bio-section js--bio-section">
-            <h2 class="section-header">About me</h2>
-            <div class="row">
-                <div class="col span-1-of-2 box">
-                    <img class="bio-pic" src="resources/img/RossCprofile.JPG" alt="Ross Cournoyer">
-                </div>
-                <div class="col span-1-of-2 box">
-                    <p class="main-copy">
-                        Hi, I’m Ross. I am a web developer from Arizona, based in Shanghai. 
-                        I have spent the last 4 years learning all things IT, but I specialize in web development 
-                        with Javascript. Simplicity, reliability, and performance are the guiding principles behind my work.
-                    </p>
-                    <p class="main-copy">
-                        I’m good with HTML,CSS,Javascript,JQuery, Node.js, 
-                        React/Redux, VUe.js, headless CMS, API integration as well as deployment/hosting. 
-                        I have a significant amount of practice and course work with C, Java, shell scripting, 
-                        and Linux sysadmin as well.
-                    </p>
-                    <p class="main-copy">
-                        I've been working with a digital agency in Shanghai for over year now, and have worked primarily with React doing marketing campaigns 
-                        and company websites for big name clients in luxury, fashion, and gaming. In my free time I'm trying to get more experience with Go, Vue.js, PostgreSQL, and WeChat mini-program development.
-                        Also, I am getting more familair with the AWS ecosystem, and Docker so I can deploy my apps more effectively.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="projects-section js--projects-section">
-            <h2 class="section-header">Projects</h2>
-            <div class="row">
-                <div class="col span-1-of-2 box">
-                    <img class="project-img" src="resources/img/podio.png" alt="podio">
-                    <h3>llpodio</h3>
-                    <p class="main-copy-sml">
-                        An Express.js API client that generates personalized webforms, grades tests submitted on webforms, 
-                        and allows company Podio account to share data with other API services. 
-                        Responds to webhooks from Globiflow parses and updates data within student database.
-                    </p>
-                </div>
-                <div class="col span-1-of-2 box">
-                    <div class="container">
-                        <img class="project-img" src="resources/img/react.png" alt="react.png">
-                        <img class="project-img" src="resources/img/contentful.png" alt="contentful.png">
-                    </div>
-                    <h3>The Rock</h3>
-                    <p class="main-copy-sml">
-                        A simple knowledge base application made to create and store SOP documents for a business. 
-                        It also allows for the upload and streaming of video for the purpose of screencast and tech walkthroughs. 
-                        Made with React.js, Contentful CMS, and deployed on Heroku.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col span-1-of-2 box">
-                <img class="project-img" src="resources/img/vue.png" alt="vue.png">
-                <h3>Vue Sequencer</h3>
-                <p class="main-copy-sml">
-                    After taking a Vue course I wanted a fun way to apply what I learned with Vue and Vuex, so I made a simple drum machine. I had some difficulty with audio playing, 
-                    Right now only works well on Chrome desktop browser. Click <a href="https://rosscournoyer602.github.io/sequencer/">here</a> to try it out.
-                </p>
+  <head>
+    <link rel="icon" type="image/png" href="resources/img/avatar.png" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/css/ionicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:200,400,700"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ross Cournoyer is a web developer in Phoenix, Arizona. 
+        He uses HTML, CSS, Javscript, Typescript, React.js, Vue.js, Node.js, Express, Ruby on Rails, Python, and Flutter"
+    />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-118768456-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <title>Ross Cournoyer</title>
+  </head>
+  <body>
+    <header id="header" class="js--header-section">
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="#header"
+              ><i class="ion-home nav-icon js--scroll-to-header"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#bio"
+              ><i class="ion-ios-body nav-icon js--scroll-to-bio"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#projects"
+              ><i class="ion-code nav-icon js--scroll-to-projects"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#learning"
+              ><i
+                class="ion-erlenmeyer-flask nav-icon js--scroll-to-learning"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="ion-at nav-icon js--scroll-to-contact"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Ross Cournoyer</h1>
+        <h4>Web Development</h4>
+      </div>
+    </header>
+    <section id="bio" class="bio-section js--bio-section">
+      <h2 class="section-header">About me</h2>
+      <div class="row">
+        <div class="col span-1-of-2 box">
+          <img
+            class="bio-pic"
+            src="resources/img/ross_2024.jpg"
+            alt="Ross Cournoyer"
+          />
+        </div>
+        <div class="col span-1-of-2 box">
+          <p class="main-copy">
+            Hi, I’m Ross. I am a web developer from Arizona. I lived in Shanghai
+            for 11 years, which is where I got my start in development. I am
+            back in Phoenix now, and have been working in software development
+            for a little over 6 years now. Time flies!
+          </p>
+          <p class="main-copy">
+            I am most skilled with Javascript front-end frameworks like React or
+            Vue, but I also have done some work with Flutter as well as Ruby on
+            Rails. I have some professional experience with Node.js, Java, and
+            Python for API development also.
+          </p>
+          <p class="main-copy">
+            I got my start at some of the best digital agencies in Shanghai, and
+            came back home to work at GM, before starting work at Nikola Motor
+            Corp, where I am employed now.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section js--projects-section">
+      <h2 class="section-header">Projects</h2>
+      <div class="row">
+        <div class="col span-1-of-2 box">
+          <img class="project-img" src="resources/img/vue.png" alt="vue.png" />
+          <h3>Vue Sequencer</h3>
+          <p class="main-copy-sml">
+            After taking a Vue course I wanted a fun way to apply what I learned
+            with Vue and Vuex, so I made a simple drum machine. Still some audio
+            lag on mobile browsers, but hey. Click
+            <a href="https://rosscournoyer602.github.io/sequencer/">here</a> to
+            try it out.
+          </p>
+        </div>
+        <div class="col span-1-of-2 box">
+          <img
+            class="project-img"
+            src="resources/img/ts-express-node.jpg"
+            alt="vue.png"
+          />
+          <h3>TS Express Boilerplate</h3>
+          <p class="main-copy-sml">
+            I made this boilerplate for prototyping CRUD apps locally. It is
+            easily extensible and has JWT auth ready to go. It is wired up with
+            Typescript, Express, TypeORM, Postgres, and best of all, it's
+            dockerized. You can have it running in two steps.
+            <a href="https://github.com/rosscournoyer602/ts-express-boilerplate"
+              >Try it!</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="btn-div">
+        <a class="btn" href="https://github.com/rosscournoyer602"
+          >See more on Github</a
+        >
+      </div>
+    </section>
+    <section id="learning" class="learning-section js--learning-section">
+      <h2 class="section-header">In the works</h2>
+      <div class="row">
+        <div class="col span-1-of-2 learning-box">
+          <div class="container">
+            <h3>Eat this</h3>
+            <div class="new-project">
+              <div>
+                <img src="resources/img/eatthis.png" alt="eatthis-screen" />
               </div>
+
+              <p class="learning-description main-copy-sml">
+                A recipe site that pulls in content from various recipe related
+                RSS feeds. What if the app also read the recipies and used AI to
+                tag them and apply categories, ingredients etc.? So far its just
+                a static responsive design with Nuxt. More to come though. Stay
+                tuned.
+              </p>
             </div>
-            <div class="btn-div">
-                <a class="btn" href="https://github.com/rosscournoyer602">See them on Github</a>
-            </div>
-        </section>
-        <section id="learning" class="learning-section js--learning-section">
-            <h2 class="section-header">In the works</h2>
-            <div class="row">
-                <div class="col span-1-of-2 learning-box">
-                    <div class="container">
-                        <h3>Frendo</h3>
-                        <div class="new-project">
-                            <img src="resources/img/react.png" alt="express-react">
-                            <img src="resources/img/postgres.png" alt="postgres">
-                            <img src="resources/img/expressjs.png" alt="express-react">
-                            <p class="learning-description main-copy-sml">
-                                Friendo is a very simple social app. Users will be able to manage their photo and information.
-                                Search for other users, add them as friends, and manage their friends. It's not quite complete,
-                                but you can try the work in progress on Heroku. React front end with Node PostgreSQL back end.
-                                It's feature complete but I'm still working on performance, and some bugs with the Search feature.
-                            </p>
-                        </div>
-                    </div>
-                    <a class="btn" href="http://friendo.herokuapp.com">Launch Friendo</a>
-                </div>
-                <div class="col span-1-of-2 learning-box">
-                    <div class="container">
-                        <h3>Courses</h3>
-                        <ul>
-                            <li>
-                                <a href="https://www.udemy.com/postgresql-from-zero-to-hero/">PostgreSQL: From Zero to Hero</a>
-                                <p class="learning-description main-copy-sml">
-                                    Perfect. No frills, straight to the point quick guide to the basics. I keep going back as a reference when I forget something.
-                                </p>
-                            </li>
-                            <li>
-                                <a href="https://www.udemy.com/advanced-css-and-sass/learn/v4/overview">Advanced CSS and SASS</a>
-                                <p class="learning-description main-copy-sml">
-                                  Great guide to flexbox, SASS mixins and best practices for adding polish to your projects.
-                                </p>
-                            </li>
-                            <li>
-                                <a href="https://www.udemy.com/go-the-complete-developers-guide/learn/v4/overview">Go; The Complete Developers Guide</a>
-                                <p class="learning-description main-copy-sml">
-                                  Unfortunately this is kind of on the back-burner for me right now. But Stephen Grider is a great instructor and I'm excited to find
-                                  time to finish the last half of this one. I am really excited about Go, especially since the first thing I started with was C.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- <div class="disclaimer"><h4>(This wasn't meant to be a plug for Udemy, I'm just using a lot of their stuff lately = P)</h4></div> -->
-            </div>
-        </section>
-        <section id="contact" class="contact-section js--contact-section">
-                <h2 class="section-header">Contact</h2>
-                <div class="row">
-                    <div class="col span-1-of-2">
-                        <p class="main-copy-sml">rosswilliamcournoyer@gmail.com</p>
-                        <p class="main-copy-sml">+86 13817915140</p>
-                        <img class="wechat-qr-img" src="resources/img/WechatIMG2083.jpeg" alt="WechatIMG2083.jpeg"/>
-                    </div>
-                    <!-- <div class="col span-1-of-3">
-                        <img class="wechat-qr-img" src="resources/img/WechatIMG2083.jpeg" alt="WechatIMG2083.jpeg"/>
-                    </div> -->
-                    <div class="col span-1-of-2">
-                        <ul class="social-links">
-                            <li><a href="https://github.com/rosscournoyer602"><i class="ion-social-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/rosscournoyer/"><i class="ion-social-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/rossphotz/"><i class="ion-social-instagram"></i></a></li>
-                            <li><a href="https://twitter.com/KidPresentable"><i class="ion-social-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-        </section>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/script.js"></script>
-    </body>
+          </div>
+          <a class="btn" href="https://eatthis.vercel.app/">Sneak preview</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section js--contact-section">
+      <h2 class="section-header">Contact</h2>
+      <div class="row socials-container">
+        <div class="">
+          <ul class="social-links">
+            <li>
+              <a href="mailto:rosswilliamcournoyer@gmail.com"
+                ><i class="ion-email"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/rosscournoyer602"
+                ><i class="ion-social-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rosscournoyer/"
+                ><i class="ion-social-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
 </html>
